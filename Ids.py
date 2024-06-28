@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Load the dataset
-data = pd.read_csv('test_data.csv')
+data = pd.read_csv('Train_data.csv')
 
 # Inspect the first few rows of the dataset to understand its structure
 print(data.head())
